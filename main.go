@@ -11,6 +11,9 @@ func main() {
 	app.Use(gin.Logger())
 	app.Use(gin.Recovery())
 
+	app.Static("/assets", "./assets")
+	app.StaticFile("/favicon.ico", "./resources/favicon.ico")
+
 	routes.Backend(app)
 	routes.Frontend(app)
 
