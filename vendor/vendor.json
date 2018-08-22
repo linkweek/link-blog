@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "G7NWqjwYKY2Y5ceg92g2g4fbPMw=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "0da5b0c85ac2539e775a7e63aebf3e0b5808dab4",
+			"revisionTime": "2018-08-21T05:29:25Z"
+		}
+	],
+	"rootPath": "linkweek.cn/link-blog"
+}
