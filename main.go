@@ -1,6 +1,9 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	"linkweek.cn/link-blog/routes"
+)
 
 func main() {
 	app := gin.New()
@@ -8,10 +11,8 @@ func main() {
 	app.Use(gin.Logger())
 	app.Use(gin.Recovery())
 
-	app.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "pong",
-		})
-	})
+	routes.Backend(app)
+	routes.Frontend(app)
+
 	app.Run(":8080")
 }
