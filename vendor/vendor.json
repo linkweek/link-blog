@@ -3,6 +3,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "9HH8JcHTg92WJaI957G6ctPSFvA=",
+			"path": "github.com/gin-contrib/gzip",
+			"revision": "4fbfcc6122759afed2efbc762c4c41164a403951",
+			"revisionTime": "2018-02-25T15:48:13Z"
+		},
+		{
+			"checksumSHA1": "BhMowD2DIKSd9qq8Pzh7Y3mh2/w=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+			"revisionTime": "2017-01-09T09:34:21Z"
+		},
+		{
 			"checksumSHA1": "G7NWqjwYKY2Y5ceg92g2g4fbPMw=",
 			"path": "github.com/gin-gonic/gin",
 			"revision": "0da5b0c85ac2539e775a7e63aebf3e0b5808dab4",
